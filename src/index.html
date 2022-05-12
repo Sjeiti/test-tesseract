@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>clientside OCR</title>
-    <style> div { display: flex; } </style>
+    <style>
+        div { display: flex; }
+        img {
+            box-shadow: 0 0 0 2px #333;
+            max-width: 10rem;
+        }
+    </style>
 </head>
 <body>
     <input type="file"/>
@@ -11,6 +17,7 @@
         <img>
         <pre></pre>
     </div>
+    <time></time>
     <script src="js/index.js"></script>
 </body>
 </html>

@@ -36,7 +36,7 @@ module.exports = env => {
     ,plugins: [
       new CopyWebpackPlugin({patterns:[
           { from: 'src/index.html', to: './'}
-          // ,{ from: 'src/_redirects', to: './'}
+          ,{ from: 'node_modules/pdfjs-dist/build/pdf.worker.js', to: './js'}
       ]})
     ]
   }

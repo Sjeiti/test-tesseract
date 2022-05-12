@@ -19,6 +19,7 @@
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
+    "pdfjs-dist": "^2.13.216",
     "tesseract.js": "^2.1.5"
   }
 }
